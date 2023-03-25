@@ -19,7 +19,7 @@ class DoublyLinkedList
         T get_last(); //returns the last element of the Doubly Linked List (O(1) time complexity)
         T get(int index); //returns the element in the specified index (O(n) time complexity)
         bool contains(T data); //returns true if the element is in the Doubly linked list (O(n) time complexity)
-        void print_list(); //prints the Single Linked List (O(n) time complexity)
+        void print_list(); //prints the Doubly Linked List (O(n) time complexity)
         void print_reverse_list(); //prints the reversed version of the list (O(n) time complexity)
 
     private:
